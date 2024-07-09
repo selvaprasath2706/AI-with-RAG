@@ -8,7 +8,7 @@ export async function GET() {
   // for (let i = 0; i < urls.length; i++) {
   //   await injestWebPage(urls[i]);
   // }
-  injestWebPage('https://studio.tune.app/docs/cookbook/supabase-rag');
+  injestWebPage('https://www.bounteous.com/');
   return new Response(
     JSON.stringify({
       message: 'Injested',
